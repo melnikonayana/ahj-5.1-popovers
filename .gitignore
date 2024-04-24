@@ -3,6 +3,7 @@
 .idea
 doc
 __mocks__
+dist
 
 ### Node ###
 # Logs
