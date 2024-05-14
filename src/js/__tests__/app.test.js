@@ -1,4 +1,4 @@
-import widget from "../widget";
+import widget from '../widget.js';
 
 document.body.innerHTML = `
   <div class="container">
@@ -11,11 +11,11 @@ document.body.innerHTML = `
 const button = document.querySelector('.btn');
 
 test('should create or delete tooltip', () => {
-    widget();
+  widget();
 
-    button.click();
-    expect(document.body.querySelector('.popover')).toBeTruthy();
+  button.click();
+  expect(document.body.querySelector('.popover')).toBeTruthy();
 
-    button.click();
-    expect(document.body.querySelector('.popover')).toBe(null);
+  button.click();
+  expect(document.body.querySelector('.popover')).toBe(null);
 });

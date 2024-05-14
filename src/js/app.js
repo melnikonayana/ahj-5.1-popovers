@@ -1,3 +1,3 @@
-import widget from "./widget";
+import widget from './widget.js';
 
 widget();
